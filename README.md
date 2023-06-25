@@ -5,3 +5,8 @@ https://bootstrapmade.com/demo/Selecao/
 https://bootstrapmade.com/demo/Lumia/
 https://www.servicenow.com/fr/
 https://tailwind-elements.com/snippets/tailwind/tailwindelements/5202528
+
+https://www.axiocode.com/developpement/
+https://www.osedea.com/fr
+
+https://shuffle.dev/components/tailwind/all/features?page=3

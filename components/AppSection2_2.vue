@@ -1,5 +1,5 @@
 <template>
-  <section style="background-color:#efefef;" class="">
+  <Section title="Nos logiciels en plusieurs étapes">
     <div class="flex justify-center py-6 px-4 mx-auto w-full max-w-screen-2xl lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="grid gap-10 sm:grid-cols-4 sm:gap-10">
