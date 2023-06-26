@@ -1,80 +1,45 @@
 <template>
-  <section class="mb-32 text-center">
-    <div class="container px-6 py-10 mx-auto">
-      <h2 class="mb-20 text-3xl font-bold">Why is it so great?</h2>
+  <section>
+    <div class="relative grid w-full bg-gray-900 h-96 lg:h-[32rem] place-items-center pattern">
+      <div class="flex flex-col items-center mx-auto text-center">
+        <h1 class="text-4xl font-semibold text-white uppercase md:text-6xl">Conception logiciels sur mesure</h1>
 
-      <div class="grid lg:grid-cols-3 lg:gap-x-12">
-        <div class="mb-12 lg:mb-0">
-          <div
-            class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-            <div class="flex justify-center">
-              <div class="-mt-8 inline-block rounded-full bg-blue-100 p-4 text-blue-500 shadow-md">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                  stroke="currentColor" class="h-7 w-7">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
-                </svg>
-              </div>
-            </div>
-            <div class="p-6">
-              <h5 class="mb-4 text-xl font-semibold text-gray-700 capitalize dark:text-white">Support 24/7</h5>
-              <p class="text-gray-500 dark:text-gray-300">
-                Laudantium totam quas cumque pariatur at doloremque hic quos
-                quia eius. Reiciendis optio minus mollitia rerum labore
-                facilis inventore voluptatem ad, quae quia sint.
-              </p>
-            </div>
-          </div>
-        </div>
+        <p class="mt-6 text-lg leading-5 text-white">Transformez vos idées en réalité numérique</p>
 
-        <div class="mb-12 lg:mb-0">
-          <div
-            class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-            <div class="flex justify-center">
-              <div class="-mt-8 inline-block rounded-full bg-blue-100 p-4 text-blue-500 shadow-md">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                  stroke="currentColor" class="h-7 w-7">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                </svg>
-              </div>
-            </div>
-            <div class="p-6">
-              <h5 class="mb-4 text-xl font-semibold text-gray-700 capitalize dark:text-white">Safe and solid</h5>
-              <p class="text-gray-500 dark:text-gray-300">
-                Eum nostrum fugit numquam, voluptates veniam neque quibusdam
-                ullam aspernatur odio soluta, quisquam dolore animi mollitia a
-                omnis praesentium, expedita nobis!
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="">
-          <div
-            class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-            <div class="flex justify-center">
-              <div class="-mt-8 inline-block rounded-full bg-blue-100 p-4 text-blue-500 shadow-md">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                  stroke="currentColor" class="h-7 w-7">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
-                </svg>
-              </div>
-            </div>
-            <div class="p-6">
-              <h5 class="mb-4 text-xl font-semibold text-gray-700 capitalize dark:text-white">Extremely fast</h5>
-              <p class="text-gray-500 dark:text-gray-300">
-                Enim cupiditate, minus nulla dolor cumque iure eveniet facere
-                ullam beatae hic voluptatibus dolores exercitationem? Facilis
-                debitis aspernatur amet nisi?
-              </p>
-            </div>
-          </div>
-        </div>
+        <a href="#about" class="mt-8 cursor-pointer animate-bounce">
+          <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="27" cy="26" r="18" stroke="white" stroke-width="2" />
+            <path d="M22.41 23.2875L27 27.8675L31.59 23.2875L33 24.6975L27 30.6975L21 24.6975L22.41 23.2875Z"
+              fill="white" />
+          </svg>
+        </a>
       </div>
     </div>
+
+    <svg class="fill-gray-900 pattern" viewBox="0 0 1440 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1440 0H0V57C720 0 1440 57 1440 57V0Z" />
+    </svg>
   </section>
+  <OurClientsSection />
+  <Section id="about">
+    <div class="lg:flex lg:items-center lg:-mx-4">
+      <div class="lg:w-1/2 lg:px-4">
+        <h3 class="text-xl font-medium text-gray-800 md:text-2xl lg:text-3xl">NOUS RÉALISONS VOS APPLICATIONS ET
+          PRODUITS LOGICIELS.</h3>
+
+        <p class="mt-6 text-gray-500 ">Spécialisées en ingénierie logicielle, nos équipes vous accompagnent sur
+          toutes les étapes de réalisation de vos produits (applications, plateformes, API, ...).</p>
+      </div>
+
+      <div class="mt-8 lg:w-1/2 lg:px-4 lg:mt-0">
+        <img class="object-cover w-full rounded-xl h-96" src="/images/code.jpg" alt="Video thumbnail">
+      </div>
+    </div>
+  </Section>
+
+  <AppSectionOurStrongPoints />
+  <AppSectionSoftwareSteps />
+  <ContactUsSection />
 </template>
 <style>
 .pattern {
