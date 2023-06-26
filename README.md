@@ -7,8 +7,10 @@ https://www.servicenow.com/fr/
 https://tailwind-elements.com/snippets/tailwind/tailwindelements/5202528
 
 https://www.axiocode.com/developpement/
-https://www.osedea.com/fr
 
 https://shuffle.dev/components/tailwind/all/features?page=3
 
 https://shuffle.dev/preview/5dc9d92d80d55aed4972ee7d804512011e872ff3?page=index.html&screen=top&iframe=1
+
+https://techreviewer.co/top-software-development-companies-for-startups
+https://www.voypost.com/about

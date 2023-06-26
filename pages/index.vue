@@ -20,6 +20,7 @@
       <path d="M1440 0H0V57C720 0 1440 57 1440 57V0Z" />
     </svg>
   </section>
+  <AppSection2 />
   <OurClientsSection />
   <Section id="about">
     <div class="lg:flex lg:items-center lg:-mx-4">
@@ -36,8 +37,8 @@
       </div>
     </div>
   </Section>
-
   <AppSectionOurStrongPoints />
+  <ServiceSection />
   <AppSectionSoftwareSteps />
   <ContactUsSection />
 </template>
