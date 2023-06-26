@@ -69,7 +69,7 @@ let open = ref(false);
             </svg>
         </section>
         <OurClientsSection />
-        <Section class="px-6 py-8 lg:py-16 " id="about">
+        <Section id="about">
             <div class="lg:flex lg:items-center lg:-mx-4">
                 <div class="lg:w-1/2 lg:px-4">
                     <h3 class="text-xl font-medium text-gray-800 md:text-2xl lg:text-3xl">NOUS RÉALISONS VOS APPLICATIONS ET
@@ -96,7 +96,7 @@ let open = ref(false);
         </Section>
         <AppSection2_11 />
         <AppSection2_2 />
-        <TechnologySection />
+        <ContactUsSection2 />
         <section class="container px-6 py-8 mx-auto lg:py-16" v-if="true === false">
             <h3 class="text-xl font-medium text-gray-800 md:text-2xl lg:text-3xl ">Browse Our Projects</h3>
 

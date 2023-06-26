@@ -10,3 +10,5 @@ https://www.axiocode.com/developpement/
 https://www.osedea.com/fr
 
 https://shuffle.dev/components/tailwind/all/features?page=3
+
+https://shuffle.dev/preview/5dc9d92d80d55aed4972ee7d804512011e872ff3?page=index.html&screen=top&iframe=1
